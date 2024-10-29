@@ -16,7 +16,6 @@ const MovieSearch: React.FC = () => {
         fetchMovies();
       } else {
         setMovies([]);
-        // Resetea el detalle de la película si la búsqueda está vacía
         setSelectedMovie(null); 
       }
     }, 300);
